@@ -47,7 +47,7 @@ fun GoogleButton(
     loading: Boolean = false,
     primaryText: String = "Sign in with Google",
     secondaryText: String = "Please wait...",
-    icon: DrawableResource = Resources.Icon.Person,
+    icon: DrawableResource = Resources.Icon.Google,
     shape: Shape = RoundedCornerShape(size = 99.dp),
     backgroundColor: Color = Gray,
     borderColor: Color = GrayDarker,

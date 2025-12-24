@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+    id("com.google.gms.google-services")
 }
 
 kotlin {
@@ -40,6 +41,9 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation(libs.androidx.lifecycle.runtimeCompose)
             implementation(project(path=":navigation"))
+            implementation("io.github.mirzemehdi:kmpauth-google:1.3.0")
+            implementation("io.github.mirzemehdi:kmpauth-firebase:1.3.0")
+            implementation("io.github.mirzemehdi:kmpauth-uihelper:1.3.0")
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
@@ -77,5 +81,11 @@ android {
 dependencies {
     debugImplementation(compose.uiTooling)
     implementation(libs.androidx.core.splashscreen)
+    implementation(platform("com.google.firebase:firebase-bom:34.7.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth")
+    implementation("io.github.mirzemehdi:kmpauth-google:1.3.0")
+    implementation("io.github.mirzemehdi:kmpauth-firebase:1.3.0")
+    implementation("io.github.mirzemehdi:kmpauth-uihelper:1.3.0")
 }
 

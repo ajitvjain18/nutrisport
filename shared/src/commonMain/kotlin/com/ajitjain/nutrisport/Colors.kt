@@ -18,6 +18,9 @@ val CategoryGreen = Color(0xFF19D109)
 val CategoryPurple = Color(0xFF8E5EFF)
 val CategoryRed = Color(0xFFFF5E60)
 
+val LoginSuccess = Yellowish
+val LoginFailure = Red
+
 val Surface = White
 val SurfaceLighter = GrayLighter
 val SurfaceDarker = Gray
@@ -41,3 +44,5 @@ val ButtonDisabled = GrayDarker
 val IconPrimary = Black
 val IconSecondary = Orange
 val IconWhite = White
+
+

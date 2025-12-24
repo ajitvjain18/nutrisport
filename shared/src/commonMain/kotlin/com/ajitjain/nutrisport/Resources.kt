@@ -10,6 +10,7 @@ import nutrisport.shared.generated.resources.close
 import nutrisport.shared.generated.resources.delete
 import nutrisport.shared.generated.resources.dollar
 import nutrisport.shared.generated.resources.edit
+import nutrisport.shared.generated.resources.google_logo
 import nutrisport.shared.generated.resources.grid
 import nutrisport.shared.generated.resources.home
 import nutrisport.shared.generated.resources.log_in
@@ -36,6 +37,7 @@ object Resources {
     val Unlock = Res.drawable.unlock
     val Search = Res.drawable.search
     val Person = Res.drawable.user
+    val Google = Res.drawable.google_logo
     val Checkmark = Res.drawable.check
     val Edit = Res.drawable.edit
     val Menu = Res.drawable.menu

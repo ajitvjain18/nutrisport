@@ -41,6 +41,9 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodelCompose)
             implementation("com.stevdza-san:messagebarkmp:1.0.9")
             implementation(project(path=":shared"))
+            implementation("io.github.mirzemehdi:kmpauth-google:1.3.0")
+            implementation("io.github.mirzemehdi:kmpauth-firebase:1.3.0")
+            implementation("io.github.mirzemehdi:kmpauth-uihelper:1.3.0")
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
